@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagens</h1>
+    <p>Tente abrir esse site em diversos dispositivos</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/media.png" type="image/png">
+        <img src="imagem/grande.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Aprendendo a reprroduzir audio em html5</p>
+    <audio preload="metadata"controls autoplay loop>
+    <source src="media/BabySister.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Reproduzindo video</h1>
+</body>
+</html>
